@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 40% 99%;
+  --foreground: 222.2 47.4% 11.2%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+  --primary: 142 29% 39%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 16% 96%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 16% 96%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 16% 96%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 142 29% 39%;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif;
+  }
+  h1, h2, h3, .h1, .h2, .h3 {
+    @apply font-bold tracking-tight text-foreground;
+  }
+  p {
+    @apply text-base font-normal text-foreground;
+  }
+  img {
+    @apply select-none;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 md:py-20 bg-background text-foreground;
+  }
+  .hero-title {
+    @apply text-6xl md:text-6xl lg:text-7xl font-bold leading-[0.9] tracking-tight text-black;
+  }
+  .hero-subtitle {
+    @apply text-sm md:text-xl leading-relaxed text-white;
+  }
+}

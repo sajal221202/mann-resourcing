@@ -1,0 +1,269 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-silver",
+      "description": "Silver Exports",
+      "imageUrl": "/images/content/silver_exports.jpg",
+      "imageHint": "silver jewelry"
+    },
+    {
+      "id": "hero-global",
+      "description": "Global Exports",
+      "imageUrl": "/images/content/global_exports.jpg",
+      "imageHint": "shipping containers"
+    },
+    {
+      "id": "hero-ceramic",
+      "description": "Ceramic Exports",
+      "imageUrl": "/images/content/ceramics_exports.png",
+      "imageHint": "pottery ceramics"
+    },
+    {
+      "id": "hero-metal",
+      "description": "Metal Crafts Exports",
+      "imageUrl": "/images/content/metal_craft_exports.jpg",
+      "imageHint": "metal crafts"
+    },
+    {
+      "id": "hero-handicraft",
+      "description": "Handicraft Exports",
+      "imageUrl": "/images/content/handicrafts_exports.jpg",
+      "imageHint": "weaving craft"
+    },
+    {
+      "id": "service-merchant",
+      "description": "Merchant Export Trading",
+      "imageUrl": "https://images.unsplash.com/photo-1668674790130-251ec785febf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXJrZXQlMjB0cmFkZXxlbnwwfHx8fDE3NzAwNDczMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "market trade"
+    },
+    {
+      "id": "service-distribution",
+      "description": "Products Distribution",
+      "imageUrl": "https://images.unsplash.com/photo-1685119166946-d4050647b0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3YXJlaG91c2UlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzY5OTkzNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse logistics"
+    },
+    {
+      "id": "service-negotiation",
+      "description": "Negotiation and partnership strategy",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhhbmRzaGFrZXxlbnwwfHx8fDE3NzAwNDQ2OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business handshake"
+    },
+    {
+      "id": "product-1",
+      "description": "Product showcase 1",
+      "imageUrl": "https://images.unsplash.com/photo-1761163829797-ac8bc07bd636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZXh0aWxlJTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDczMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "textile product"
+    },
+    {
+      "id": "product-2",
+      "description": "Product showcase 2",
+      "imageUrl": "https://images.unsplash.com/photo-1643569556871-91ec60671ed7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJhbWljJTIwdmFzZXxlbnwwfHx8fDE3NzAwMjMwMTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramic vase"
+    },
+    {
+      "id": "product-3",
+      "description": "Product showcase 3",
+      "imageUrl": "https://images.unsplash.com/photo-1516650556972-e9904734f467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b29kZW4lMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzY5OTY1NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden furniture"
+    },
+    {
+      "id": "product-4",
+      "description": "Product showcase 4",
+      "imageUrl": "https://images.unsplash.com/photo-1611012916032-68e4d87901e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaWx2ZXIlMjBuZWNrbGFjZXxlbnwwfHx8fDE3Njk5NzQ0ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver necklace"
+    },
+    {
+      "id": "feature-network",
+      "description": "Global Network",
+      "imageUrl": "https://images.unsplash.com/photo-1565277040732-11d342ae0892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnbG9iZSUyMGNvbm5lY3Rpb25zfGVufDB8fHx8MTc3MDA0NzMzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "globe connections"
+    },
+    {
+      "id": "feature-solutions",
+      "description": "Tailored Solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1546710237-057a5519a3d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnZWFycyUyMG1hY2hpbmV8ZW58MHx8fHwxNzcwMDQ3MzM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gears machine"
+    },
+    {
+      "id": "feature-quality",
+      "description": "Quality Assurance",
+      "imageUrl": "https://images.unsplash.com/photo-1767025945723-4872039ec520?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBzdGFtcHxlbnwwfHx8fDE3Njk5NzYwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate stamp"
+    },
+    {
+      "id": "payment-methods",
+      "description": "Available payment methods",
+      "imageUrl": "https://images.unsplash.com/photo-1646992914433-de93d0d06c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmVkaXQlMjBjYXJkc3xlbnwwfHx8fDE3Njk5NzgxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "credit cards"
+    },
+    {
+      "id": "handicraft-1",
+      "description": "Handicraft Product 1",
+      "imageUrl": "https://images.unsplash.com/photo-1673436765950-a563ed3c2a0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYW5kaWNyYWZ0JTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDg0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handicraft product"
+    },
+    {
+      "id": "handicraft-2",
+      "description": "Handicraft Product 2",
+      "imageUrl": "https://images.unsplash.com/photo-1615640325967-af4cfa4c0c6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYW5kaWNyYWZ0JTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDg0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handicraft product"
+    },
+    {
+      "id": "handicraft-3",
+      "description": "Handicraft Product 3",
+      "imageUrl": "https://images.unsplash.com/photo-1673436765974-839942c43ee1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYW5kaWNyYWZ0JTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDg0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handicraft product"
+    },
+    {
+      "id": "handicraft-4",
+      "description": "Handicraft Product 4",
+      "imageUrl": "https://images.unsplash.com/photo-1673436765974-839942c43ee1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYW5kaWNyYWZ0JTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDg0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handicraft product"
+    },
+    {
+      "id": "wooden-toy-1",
+      "description": "Wooden Toy 1",
+      "imageUrl": "https://images.unsplash.com/photo-1517036723957-e2891b1b32ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzcwMDQ4NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "wooden-toy-2",
+      "description": "Wooden Toy 2",
+      "imageUrl": "https://images.unsplash.com/photo-1670000515046-9ad35ebb755d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzcwMDQ4NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "wooden-toy-3",
+      "description": "Wooden Toy 3",
+      "imageUrl": "https://images.unsplash.com/photo-1712771155644-9ce7c22790d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzcwMDQ4NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "wooden-toy-4",
+      "description": "Wooden Toy 4",
+      "imageUrl": "https://images.unsplash.com/photo-1536293182766-c9c0c4133b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzcwMDQ4NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "metal-furniture-1",
+      "description": "Metal Furniture 1",
+      "imageUrl": "https://images.unsplash.com/photo-1752061905248-e93a855489fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZXRhbCUyMGZ1cm5pdHVyZXxlbnwwfHx8fDE3NzAwNDg0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal furniture"
+    },
+    {
+      "id": "metal-furniture-2",
+      "description": "Metal Furniture 2",
+      "imageUrl": "https://images.unsplash.com/photo-1752061905248-e93a855489fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZXRhbCUyMGZ1cm5pdHVyZXxlbnwwfHx8fDE3NzAwNDg0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal furniture"
+    },
+    {
+      "id": "metal-furniture-3",
+      "description": "Metal Furniture 3",
+      "imageUrl": "https://images.unsplash.com/photo-1752061905248-e93a855489fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZXRhbCUyMGZ1cm5pdHVyZXxlbnwwfHx8fDE3NzAwNDg0NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal furniture"
+    },
+    {
+      "id": "metal-furniture-4",
+      "description": "Metal Furniture 4",
+      "imageUrl": "https://images.unsplash.com/photo-1760716478152-f70694d134e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWV0YWwlMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal furniture"
+    },
+    {
+      "id": "silver-1",
+      "description": "Silver Product 1",
+      "imageUrl": "https://images.unsplash.com/photo-1609900179719-3cce93036645?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWx2ZXIlMjBwcm9kdWN0fGVufDB8fHx8MTc3MDA0ODQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver product"
+    },
+    {
+      "id": "silver-2",
+      "description": "Silver Product 2",
+      "imageUrl": "https://images.unsplash.com/photo-1694166054938-bf735789f6ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsdmVyJTIwcHJvZHVjdHxlbnwwfHx8fDE3NzAwNDg0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver product"
+    },
+    {
+      "id": "silver-3",
+      "description": "Silver Product 3",
+      "imageUrl": "https://images.unsplash.com/photo-1609900179250-1d289c3d2feb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWx2ZXIlMjBwcm9kdWN0fGVufDB8fHx8MTc3MDA0ODQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver product"
+    },
+    {
+      "id": "silver-4",
+      "description": "Silver Product 4",
+      "imageUrl": "https://images.unsplash.com/photo-1609900179119-3ed9f4530eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaWx2ZXIlMjBwcm9kdWN0fGVufDB8fHx8MTc3MDA0ODQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver product"
+    },
+    {
+      "id": "ceramics-1",
+      "description": "Ceramics Product 1",
+      "imageUrl": "https://images.unsplash.com/photo-1629218091978-f70a20a43aab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJhbWljcyUyMHByb2R1Y3R8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramics product"
+    },
+    {
+      "id": "ceramics-2",
+      "description": "Ceramics Product 2",
+      "imageUrl": "https://images.unsplash.com/photo-1552740844-4f8a8206c68d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJhbWljcyUyMHByb2R1Y3R8ZW58MHx8fHwxNzcwMDQ4NDc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramics product"
+    },
+    {
+      "id": "ceramics-3",
+      "description": "Ceramics Product 3",
+      "imageUrl": "https://images.unsplash.com/photo-1693888282402-c425de8684b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJhbWljcyUyMHByb2R1Y3R8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramics product"
+    },
+    {
+      "id": "ceramics-4",
+      "description": "Ceramics Product 4",
+      "imageUrl": "https://images.unsplash.com/photo-1629140877328-77e5a10019e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJhbWljcyUyMHByb2R1Y3R8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramics product"
+    },
+    {
+      "id": "bamboo-furniture-1",
+      "description": "Bamboo Furniture 1",
+      "imageUrl": "https://images.unsplash.com/photo-1706005127180-0f9f6706abe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiYW1ib28lMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo furniture"
+    },
+    {
+      "id": "bamboo-furniture-2",
+      "description": "Bamboo Furniture 2",
+      "imageUrl": "https://images.unsplash.com/photo-1582835333661-6fc0a2295585?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW1ib28lMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo furniture"
+    },
+    {
+      "id": "bamboo-furniture-3",
+      "description": "Bamboo Furniture 3",
+      "imageUrl": "https://images.unsplash.com/photo-1592885355659-53ce4560ce71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYW1ib28lMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo furniture"
+    },
+    {
+      "id": "bamboo-furniture-4",
+      "description": "Bamboo Furniture 4",
+      "imageUrl": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYW1ib28lMjBmdXJuaXR1cmV8ZW58MHx8fHwxNzcwMDQ4NDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo furniture"
+    },
+    {
+      "id": "iron-handicraft-1",
+      "description": "Iron Handicraft 1",
+      "imageUrl": "https://picsum.photos/seed/ih1/540/720",
+      "imageHint": "iron handicraft"
+    },
+    {
+      "id": "iron-handicraft-2",
+      "description": "Iron Handicraft 2",
+      "imageUrl": "https://picsum.photos/seed/ih2/540/720",
+      "imageHint": "iron handicraft"
+    },
+    {
+      "id": "iron-handicraft-3",
+      "description": "Iron Handicraft 3",
+      "imageUrl": "https://picsum.photos/seed/ih3/540/720",
+      "imageHint": "iron handicraft"
+    },
+    {
+      "id": "iron-handicraft-4",
+      "description": "Iron Handicraft 4",
+      "imageUrl": "https://picsum.photos/seed/ih4/540/720",
+      "imageHint": "iron handicraft"
+    }
+  ]
+}
+

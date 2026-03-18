@@ -1,0 +1,116 @@
+"use client";
+
+import Image from 'next/image';
+import { ShoppingBag, Star, Repeat } from 'lucide-react';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '@/components/ui/button';
+import { AnimatedSection } from '@/components/animated-section';
+import React from 'react';
+
+const productCategories = [
+  {
+    title: 'Wooden and Steel Furniture',
+    products: ['bamboo-furniture-1', 'bamboo-furniture-2', 'metal-furniture-1', 'metal-furniture-2'],
+  },
+  {
+    title: 'Clothing (Coming Soon)',
+    products: [],
+  },
+  {
+    title: 'Wooden Toys (Coming Soon)',
+    products: [],
+  },
+  /*
+  {
+    title: 'Handicraft',
+    products: ['handicraft-1', 'handicraft-2', 'handicraft-3', 'handicraft-4'],
+  },
+  {
+    title: 'Handmade Wooden Toys',
+    products: ['wooden-toy-1', 'wooden-toy-2', 'wooden-toy-3', 'wooden-toy-4'],
+  },
+  {
+    title: 'Handmade Metal Furniture',
+    products: ['metal-furniture-1', 'metal-furniture-2', 'metal-furniture-3', 'metal-furniture-4'],
+  },
+  {
+    title: 'Silver',
+    products: ['silver-1', 'silver-2', 'silver-3', 'silver-4'],
+  },
+  {
+    title: 'Ceramics',
+    products: ['ceramics-1', 'ceramics-2', 'ceramics-3', 'ceramics-4'],
+  },
+  {
+    title: 'Bamboo Furniture',
+    products: ['bamboo-furniture-1', 'bamboo-furniture-2', 'bamboo-furniture-3', 'bamboo-furniture-4'],
+  },
+  {
+    title: 'Iron Handicraft',
+    products: ['iron-handicraft-1', 'iron-handicraft-2', 'iron-handicraft-3', 'iron-handicraft-4'],
+  },
+  */
+];
+
+export function ProductsPage() {
+  return (
+    <div className="py-10 md:py-16">
+      <div className="container">
+        <AnimatedSection>
+          <h1 className="text-4xl md:text-5xl text-center mb-10 md:mb-12 text-black">Our Products</h1>
+        </AnimatedSection>
+        {productCategories.map((category) => (
+          <AnimatedSection key={category.title} id={category.title.toLowerCase().replace(/ /g, '-')} className="mb-16">
+            <h2 className="h2-large section-title mb-10">{category.title}</h2>
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {category.products.length > 0 ? (
+                category.products.map((productId) => {
+                  const image = PlaceHolderImages.find((img) => img.id === productId);
+                  return (
+                    <div key={productId} className="group relative overflow-hidden rounded-md border bg-card">
+                      <div className="aspect-[3/4] bg-muted">
+                        {image && (
+                          <Image
+                            src={image.imageUrl}
+                            alt={image.description}
+                            data-ai-hint={image.imageHint}
+                            width={540}
+                            height={720}
+                            loading="lazy"
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          />
+                        )}
+                      </div>
+                      <div className="absolute top-1/2 -translate-y-1/2 translate-x-full space-y-2.5 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 right-4">
+                        <ProductActionButton icon={ShoppingBag} label="add to cart" />
+                        <ProductActionButton icon={Star} label="add to wishlist" />
+                        <ProductActionButton icon={Repeat} label="compare" />
+                      </div>
+                    </div>
+                  );
+                })
+              ) : (
+                <div className="col-span-full text-center">
+                  <p className="text-lg text-muted-foreground">Check back soon for new products!</p>
+                </div>
+              )}
+            </div>
+          </AnimatedSection>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const ProductActionButton = ({ icon: Icon, label }: { icon: React.ElementType; label: string }) => (
+  <Button
+    variant="outline"
+    size="icon"
+    className="h-11 w-11 rounded-full bg-white shadow-md hover:bg-primary hover:text-white"
+    aria-label={label}
+  >
+    <Icon className="h-6 w-6" />
+  </Button>
+);
+
+
