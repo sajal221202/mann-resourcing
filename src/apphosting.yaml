@@ -1,0 +1,6 @@
+# Deployment configuration placeholder (for example, Google Cloud App Hosting).
+# Adjust this file to match your hosting provider's requirements before deploy.
+
+service: mann-website-react
+runtime: nodejs
+
